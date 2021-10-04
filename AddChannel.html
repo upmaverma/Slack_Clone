@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Slack Clone UI</title>
+
+</head>
+
+<body>
+    <!-- start writing your code -->
+    <nav>
+        <div class="navbar">
+
+            <i class="far fa-clock"></i>
+            <input type="search" placeholder=" 🔍 Search Here" class="searchBar">
+            <i class="far fa-question-circle"></i>
+            </input>
+        </div>
+        <i class="fab fa-vimeo-v"></i>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="left-side">
+                <div class="side-header">
+                    <div>
+                        <h4>Cometchat(e)</h4>
+                        <p>
+                        <div class="online"></div>Vikrant</p>
+                    </div>
+
+                    <a href="./index.html"><i class="fas fa-pen"></i></a>
+                </div>
+                <ul>
+                    <li class="links"><a href="#"><i class="far fa-envelope"></i>Threads</li></a>
+                    <li class="links"> <a href="#">
+                            <i class="fas fa-at"></i>Mentions & Reactions
+                        </a> </li>
+                    <li class="links"><a href="#">
+                            <i class="fas fa-ellipsis-v"></i>More
+                        </a></li>
+                    <li class="links"><a href="#">
+                            <i class="fas fa-caret-down"></i>Channels
+                            <ul style="margin-left:10px; list-style-type:none;">
+                                <li class="dropdown-link"> <a href="./AddChannel.html"> <i class="fas fa-plus"></i>Add Channels</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="links"> <a href="./message.html">
+                        <i class="fas fa-caret-down"></i>Direct Message
+                        </a> </li>
+                </ul>
+                <button class="logOut">Log Out</button>
+            </div>
+            <div class="right-side">
+                <div class="info">
+                    <img src="https://images.prismic.io/smarttask/1c150a8e-9f13-420e-8b0f-e6365219250f_slack.png?auto=compress,format" alt="Logo of Slack" width="50" height="50" />
+                    <h2>Add New Channel</h2>
+                    <div>
+
+           <input type="text" placeholder="Channel Name" class="channel-input"/><br />
+           <input type="search" placeholder="Select Privacy" class="channel-input"/>
+                    </div>
+                        <button class="create-channel">Create Channel</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
